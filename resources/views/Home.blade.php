@@ -10,7 +10,7 @@
      <p>It's currently {{date('h:i A')}} .</p>
 
      <footer>
-         <p>&copy; Copyrught {{date('Y')}}  &middot; <a href="#">About Us</a></p>
+         <p>&copy; Copyrught {{date('Y')}}  &middot; <a href="/about-us">About Us</a></p>
      </footer>
     </body>
 </html>
