@@ -1,10 +1,10 @@
 <?php
 
 Route::get('/', function () {
-    return view('Home');
+    return view('pages/Home');
 });
 
 
-Route::get('about-us', function () {
-    return view('abouts');
+Route::get('/about-us', function () {
+    return view('pages/abouts');
 });
