@@ -22,4 +22,20 @@ Route::get('/login', function () {
 
 Route::get('/register', function () {
     return view('pages/registre');
-})->name('Register');
+})->name('register');
+
+Route::get('/announcements', function () {
+    return view('pages/announcements');
+})->name('annonce');
+
+Route::get('/search', function () {
+    return view('pages/search');
+})->name('search');
+
+Route::get('/archives', function () {
+    return view('pages/archives');
+})->name('archives');
+
+Route::get('/about', function () {
+    return view('pages/about');
+})->name('about');

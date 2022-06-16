@@ -39,7 +39,7 @@
            </form>  
            <div class="mt-1">
                <ul>
-                   <li><a href="/Registre">Not a user? Register with this site</a></li>
+                   <li><a href="{{route('register')}}">Not a user? Register with this site</a></li>
                    <li><a href="#">Forgot your password?</a></li>
                </ul>
            </div>
